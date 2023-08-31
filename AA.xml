@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" soap:encodingStyle="http://www.w3.org/2003/05/soap-encoding" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <soap:Body>
+    <callTXLife xmlns="http://schema/webservices.elink.solcorp.com">
+      <callTXLifeRequest>
+      <![CDATA[
+<TXLife>
+    <TXLifeRequest>
+        <TransExeDate>2023-05-08</TransExeDate>
+        <TransExeTime>02:52:37</TransExeTime>
+        <TransRefGUID>2996b11f-e5b2-d00f-281b-03582683cd49</TransRefGUID>
+        <TransType tc="PayoutReverse">PayoutReverse</TransType>
+        <OLifE>
+            <Oject xsi:type="payoutPayment" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <mirDvProcessStatus>3</mirDvProcessStatus>
+                <mirPayoAmount>455048000</mirPayoAmount>
+                <mirPayoEffDate>2023-05-04</mirPayoEffDate>
+                <mirPayoEndDate>2023-05-04</mirPayoEndDate>
+                <mirPayoLeadTimeDur>00</mirPayoLeadTimeDur>
+                <mirPayoMode>01</mirPayoMode>
+                <mirPayoMthdCd>D</mirPayoMthdCd>
+                <mirPayoNextDate>2023-05-04</mirPayoNextDate>
+                <mirPayoNumber>00001</mirPayoNumber>
+                <mirPayoType>PP</mirPayoType>
+                <mirPayostatus>A</mirPayostatus>
+                <mirPitAmount>1080000</mirPitAmount>
+                <mirPolIdBase>990090054</mirPolIdBase>
+                <mirPolIdSfx>2</mirPolIdSfx>
+            </Oject>
+        </OLifE>
+    </TXLifeRequest>
+    <UserAuthRequest>
+        <UserLoginName>FO43</UserLoginName>
+        <UserPswd>
+            <CryptType>NONE</CryptType>
+            <Pswd>P@ssw0rd</Pswd>
+        </UserPswd>
+    </UserAuthRequest>
+</TXLife>
+      ]]>
+      </callTXLifeRequest>
+    </callTXLife>
+  </soap:Body>
+</soap:Envelope>
