@@ -1,5 +1,0 @@
-set folder=D:\MQ\apache-activemq-6.0.1
-set JAVA_HOME=%folder%\jdk-17.0.9\
-set Path=%Path%;%folder%\jdk-17.0.9\bin
-cd %folder%\bin
-activemq start
